@@ -22,7 +22,7 @@ class MainKtTest {
     @Test
     fun comissionPay_MastercardTestSmall(){
         val card = "Mastercard"
-        val comission = 0
+        val comission = 100
         val summTrans = 400
         val comissionPaycard = comissionPay(card, summTrans)
         assertEquals(comission, comissionPaycard)
